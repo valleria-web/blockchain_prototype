@@ -1,0 +1,22 @@
+@startuml blockchainV1 
+
+class Blockchain {
+  - chain: [{Block}]
+}
+
+class Miner {
+  - id: Int
+  - blockchain : Blockchain
+  - mempool : Mempool
+  - wallet : Wallet
+  + proofOfWork()
+}
+
+
+class Block{
+}
+
+class Transactions {
+}
+
+@enduml
