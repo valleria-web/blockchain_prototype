@@ -12,6 +12,13 @@ class Miner {
   + proofOfWork()
 }
 
+class Wallet  {
+  - blockchain : Blockchain
+  - publicKey: String
+  - balance : Int
+  + sendCoins()
+}
+
 
 class Block{
 }
